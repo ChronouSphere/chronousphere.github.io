@@ -68,8 +68,7 @@
           },
           "defaultConfiguration": "development",
           "options": {
-            "browserTarget": "epf-locator:build",
-            "proxyConfig": "src/proxy.conf.json"
+            "browserTarget": "epf-locator:build"
           }
         },
         "extract-i18n": {
@@ -98,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
